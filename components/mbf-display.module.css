@@ -1,0 +1,23 @@
+.gallery {
+    margin: 2em 0 2em 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    grid-gap: 20px;
+}
+
+.galleryItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.galleryItemSubtitle {
+    padding-top: 1em;
+    font-size: 0.8rem;
+    opacity: 70%;
+}
