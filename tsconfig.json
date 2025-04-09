@@ -28,8 +28,9 @@
     ".next/types/**/*.ts",
     "**/*.ts",
     "**/*.tsx"
-, "content/_meta.js"  ],
+, "content/_meta.js", "content/index.mdx", "src/app/index.mdx", "src/app/page.mdx"  ],
   "exclude": [
-    "node_modules"
+    "node_modules",
+    ".next",
   ]
 }
