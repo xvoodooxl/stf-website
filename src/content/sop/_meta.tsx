@@ -13,5 +13,6 @@ export default {
     'operating-fundamentals': '',
     'close-quarters-battle': '',
     'section-maneuvers': '',
+    'tactics-drills': '',
     'communications': '',
 }

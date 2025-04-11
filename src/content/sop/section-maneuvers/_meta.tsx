@@ -1,4 +1,4 @@
-{
+export default {
     "fireteam-formations": "",
     "reaction-to-contact": "",
     "bounding": "",

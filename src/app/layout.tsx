@@ -109,8 +109,9 @@ export default async function RootLayout({ children }) {
           banner={banner}
           navbar={navbar}
           pageMap={await getPageMap("/")}
-          docsRepositoryBase="https://github.com/xvoodooxl/stf-website/tree/main/content"
+          docsRepositoryBase="https://github.com/xvoodooxl/stf-website/tree/main"
           footer={footer}
+          editLink="Edit this page on GitHub"
           // ... Your additional layout options
         >
           {children}

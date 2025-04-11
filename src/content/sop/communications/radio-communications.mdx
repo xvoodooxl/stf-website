@@ -1,23 +1,65 @@
-# Radio Communication
-Radio communication is a vital to relay information from one element to another. Because of this, there are radio etiquette guidelines to ensure that the radio communication is concise, accurate, and understandable.
+---
+title: "Radio Communications"
+description: ""
+date: "2023-10-01"
+---
 
-To begin a transfer communication with another element of person, you should state their element/callsign, and then your own element/ callsign, followed with a confirmation of connection, like so:
+import { Callout } from "nextra/components";
 
-> An easy way to remeber this is "Hey you, this is me, [message]".
+# Radio Communications
 
-**`“SPECTRE Actual, 0-4, how copy?”`**
+Radio communication is a vital to relay information from one element to another. Because of this the following protocol should be used at all times to ensure that the radio communication is concise, accurate, and understandable.
+
+To begin a transfer communication with another element or person, you should state their element/callsign, and then your own element/callsign, followed with a confirmation of connection, like so:
+
+**`“Alpha, Bravo, how copy?, over”`**
 
 If read loud and clear, they will respond indicating that they are receiving your transmission:
 
-**`"0-4, Good Copy.”`**
+**`"Bravo, Alpha, Good Copy., over”`**
 
 From here, a transfer of communication has started, and does not end until either element ends a transmission with “out.”, in which that transmission is finished.
+
+<Callout type="info">
+  An easy way to remeber this is "Hey you, this is me, [message]".
+</Callout>
+
+## Radio Protocol
+
+    - Use “[listener] this is [speaker]” to start conversation.
+    - Use slow, clear speech, use plain words.
+    - Keep radio traffic as clean as possible.
+    - Practice [closed loop communications](#closed-loop-communications):
+        - a. When giving an order, address by name or role
+        - b. Expect subordinate to repeat order back
+        - c. Give go-order to start the action (or corrections)
+        - d. Go-orders can be given before the repeat
+    - Only follow your leader’s orders, not leader’s leader
+    - When communicating with a different element/team, use the element callsign, not the team leader's callsign.
+
+## Closed Loop Communications [#closed-loop-communications]
+
+Closed loop communication is a technique used to ensure that messages are received and understood correctly. It involves the following steps:
+
+1. **Sender Initiates Communication**: The sender addresses the recipient and delivers the message.
+2. **Recipient Acknowledges and Repeats**: The recipient acknowledges the message and repeats it back to confirm understanding.
+3. **Sender Confirms or Corrects**: The sender confirms the repeated message or provides corrections if necessary.
+
+### Example:
+
+1. **Sender:** **`"Bravo, Alpha. Move to grid 1234, over."`**
+2. **Recipient:** **`"Alpha, Bravo. Move to grid 1234, copy, over."`**
+3. **Sender:** **`"Bravo, Alpha. Good copy, out."`**
+
+This process ensures clarity and reduces the chance of miscommunication, especially in high-stakes situations.
+
+## Radio Verbiage
 
 Below are a list of words and their meanings in the context of radio communication:
 
 - **`“How Copy?”`** - Requests acknowledgement of radio transfer and contents of transfer, if applicable.
 - **`“Lima Charlie” / “Loud and Clear” / “Good Copy”`** - Acknowledges clear radio transfer.
-- **`“Say again?”`** - Requests a repeat of transfer. Do *NOT* use “Repeat”, which refers to artillery.
+- **`“Say again?”`** - Requests a repeat of transfer. Do _NOT_ use “Repeat”, which refers to artillery.
 - **`“Affim” / “Good Copy”`** - Acknowledges and confirms traffic
 - **`“Wilco”`** - Will comply, specifically used to confirm the following of orders
 - **`“Break break break”`** - Holds radio comms, used in an emergency

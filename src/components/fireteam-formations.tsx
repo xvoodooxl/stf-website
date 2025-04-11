@@ -3,61 +3,83 @@ import styles from "./fireteam-formations.module.css";
 
 export function FormationsGallery() {
   return (
-<>
-<div className={styles.gallery}>
+    <>
+      <div className={styles.gallery}>
         <div className={styles.galleryItem}>
-          <Image src="/formations/form6.png" alt="Hello" width={200} height={200} />
-          <span className={styles.galleryItemSubtitle}>
-            Wedge Left
-           </span>
-        </div>
-        <div className={styles.galleryItem}>
-          <Image src="/formations/form5.png" alt="Hello" width={200} height={200} />
-          <span className={styles.galleryItemSubtitle}>
-            Wedge Right
-           </span>
-        </div>
-        <div className={styles.galleryItem}>
-          <Image src="/formations/form3.png" alt="Hello" width={200} height={200} />
+          <Image
+            src="/formations/formations-column.png"
+            alt="Hello"
+            width={200}
+            height={200}
+          />
           <span className={styles.galleryItemSubtitle}>Column</span>
         </div>
         <div className={styles.galleryItem}>
-          <Image src="/formations/form4.png" alt="Hello" width={200} height={200} />
-          <span className={styles.galleryItemSubtitle}>Battle Line</span>
-        </div>
-        <div className={styles.galleryItem}>
-          <Image src="/formations/form1.png" alt="Hello" width={200} height={200} />
-          <span className={styles.galleryItemSubtitle}>
-            Echelon Left
-           </span>
-        </div>
-        <div className={styles.galleryItem}>
-          <Image src="/formations/form2.png" alt="Hello" width={200} height={200} />
-          <span className={styles.galleryItemSubtitle}>
-            Echelon Right
-           </span>
-        </div>
-        <div className={styles.galleryItem}>
-          <Image src="/formations/form7.png" alt="Hello" width={200} height={200} />
+          <Image
+            src="/formations/formations-staggered-col.png"
+            alt="Hello"
+            width={200}
+            height={200}
+          />
           <span className={styles.galleryItemSubtitle}>Staggered Column</span>
         </div>
         <div className={styles.galleryItem}>
-          <Image src="/formations/form8.png" alt="Hello" width={200} height={200} />
-          <span className={styles.galleryItemSubtitle}>Staggered Battle Line</span>
+          <Image
+            src="/formations/formations-wedge.png"
+            alt="Hello"
+            width={200}
+            height={200}
+          />
+          <span className={styles.galleryItemSubtitle}>Wedge</span>
         </div>
         <div className={styles.galleryItem}>
-          <Image src="/formations/form9.png" alt="Hello" width={200} height={200} />
-          <span className={styles.galleryItemSubtitle}>
-            Diamond
-           </span>
+          <Image
+            src="/formations/formations-tactical-blob.png"
+            alt="Hello"
+            width={200}
+            height={200}
+          />
+          <span className={styles.galleryItemSubtitle}>Tactical Blob</span>
         </div>
         <div className={styles.galleryItem}>
-          <Image src="/formations/form10.png" alt="Hello" width={200} height={200} />
+          <Image
+            src="/formations/formations-battleline.png"
+            alt="Hello"
+            width={200}
+            height={200}
+          />
+          <span className={styles.galleryItemSubtitle}>Battle Line</span>
+        </div>
+        <div className={styles.galleryItem}>
+          <Image
+            src="/formations/formations-staggered-battleline.png"
+            alt="Hello"
+            width={200}
+            height={200}
+          />
           <span className={styles.galleryItemSubtitle}>
-            Square
-           </span>
+            Staggered Battle Line
+          </span>
+        </div>
+        <div className={styles.galleryItem}>
+          <Image
+            src="/formations/form9.png"
+            alt="Hello"
+            width={200}
+            height={200}
+          />
+          <span className={styles.galleryItemSubtitle}>360 | Diamond</span>
+        </div>
+        <div className={styles.galleryItem}>
+          <Image
+            src="/formations/form10.png"
+            alt="Hello"
+            width={200}
+            height={200}
+          />
+          <span className={styles.galleryItemSubtitle}>360 | Square</span>
         </div>
       </div>
-</>
+    </>
   );
 }
