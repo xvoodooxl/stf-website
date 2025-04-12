@@ -4,23 +4,86 @@ description: ""
 date: "2023-10-01"
 ---
 
+import { Callout } from "nextra/components";
+
 // TODO Refactor this to include use of cas in arma 3 and reforger
 
-# Indirect Fire Support
-Through the use of moderator and administrator permissions in Ground Branch, SPECTRE simulates indirect fire via mortar team. In order to call on a mortar team for indirect fire, use the following communication:
+# Indirect Fire Support and CAS
+SPECTRE uses a simplified but effective “5-Line Briefing” call for Fire Support and Close Air Support.
+Whenever an Aircraft or Indirect Fire Support team receives a Line Brief from an JTAC (Observer), they must use [close loop communications](/sop/communications/radio-communications#closed-loop-communications) and repeat back the same line that the observer called. This is to minimize BLUE ON BLUE incidents and ensure that Fire is properly delivered to the enemy. 
 
-**`“Fire mission, fire mission, [Grid square or squares], [Fire pattern if applicable], [round count and type], [Additional information], fire for effect.”`**
+To effectively call in a fire mission either by IDF or CAS, the following procedures should be used:
 
-At this point, after rounds impact, you may either confirm hits with “Good Effect on Target” after a Battle Damage Assesment (BDA), or ask for a second set of fire by saying  **`“Mortar Team, Repeat”`**
+1. **JTAC (Joint Terminal Attack Controller) calls in the fire mission**:
 
-EXAMPLE:
+`[Aircraft or Mortar Team callsign] this is [JTAC callsign], fire mission, fire mission, over.`
 
-**`“Fire mission, fire mission, grid kilo 6 to lima 6, west to east, 8 rounds high explosive, danger close, fire for effect!”`** 
+2. **Aircraft or Mortar Team callsign acknowledges the call**:
 
--Rounds impact-
+`[Observer or JTAC callsign] this is [Aircraft or Mortar Team callsign], good copy, over.`
 
-**`“Mortar team, Repeat!”`**
+3. **JTAC provides friendly unit's location / mark**:
 
--Rounds impact- 
+`Friendlies located at [Grid], marked by [Beacon, Smoke, Strobe, etc] over.`
 
-**`“Good effect on target!”`**
+4. **JTAC provides target location**:
+
+`Target location [Grid / Compass bearing / range(meters) / TRP, etc] over.`
+
+5. **JTAC provides target description (optional)**:
+
+`Target description [target description], marked by [IR pointer, Tracers, Smoke] over.`
+
+6. **JTAC gives order for fire mission**:
+
+`[Fire mission] [Fire for effect] [Number of rounds] [Type of round] [Fire pattern] [Danger close] over.`
+
+7. **Aircraft or Mortar Team acknowledges the order**:
+
+`[JTAC callsign] this is [Aircraft or Mortar Team callsign], good copy, [repeats fire mission], firing for effect, out.`
+
+8. **JTAC provides BDA (optional)**:
+
+`[Aircraft or Mortar Team callsign] this is [JTAC callsign], [effect on target], [repeat], over.`
+
+
+<Callout type="info">
+  Phrases in [brackets] are variable and are mission and call dependant.
+</Callout>
+
+
+### EXTRAS/AS REQUIRED:
+For IDF, marking of a target may not be necessary, but a Target Description may be, so as to aid in BDA calls.
+For closer fires [within 200 meters], the Observer/Commander must accept responsibility for increased risk of friendly fire and give the order to fire. This is called **Danger Close**.
+
+## Example of a CAS Fire Mission:
+
+1. **JTAC:** **`"Bravo, this is Alpha, fire mission, fire mission, over."`**
+2. **Aircraft:** **`"Alpha, this is Bravo, good copy, over."`**
+3. **JTAC:** **`"Friendlies located at grid 123456, marked by smoke, over."`**
+2. **Aircraft:** **`"Fiendlies located at grid 123456, over."`**
+4. **JTAC:** **`"Target location grid 654321, over."`**
+2. **Aircraft:** **`"Target Location grid 654321, over."`**
+5. **JTAC:** **`"Target description: enemy infantry, marked by IR pointer, over."`**
+2. **Aircraft:** **`"Enemy infantry, marked by IR Pointer, over."`**
+6. **JTAC:** **`"Fire mission, fire for effect, 8 rounds high explosive, west to east, danger close, over."`**
+7. **Aircraft:** **`"Alpha, this is Bravo, good copy, 8 rounds high explosive, west to east, danger close, firing for effect, out."`**
+8. **JTAC:** **`"Bravo, this is Alpha, good effect on target, out."`**
+
+## Legend and Procedure words
+
+- **IR** - Infrared marker used to mark the target for the IDF team.
+- **BDA** - Battle Damage Assessment, used to assess the damage caused by the rounds.
+- **CAS** - Close Air Support, used to call in air support for a target.
+- **TRP** - Target Reference Point, used to mark the target for the mortar team.
+- **IDF** - Indirect Fire, used to call in indirect fire support.
+- **JTAC** - Joint Terminal Attack Controller, the person who coordinates the fire mission.
+- **Fire Mission** - Indicates the start of a fire mission.
+- **Fire for Effect** - Indicates that the mortar team should fire the rounds.
+- **Repeat** - Indicates that the mortar team should fire another set of rounds.
+- **Good Effect on Target** - Indicates that the rounds impacted the target successfully.
+- **Danger Close** - Indicates that the rounds are being fired close to friendly forces.
+- **Grid** - 6 digit grid location.
+- **Fire Pattern** - The pattern in which the rounds should be fired (e.g., west to east).
+- **Round Count** - The number of rounds to be fired.
+- **Round Type** - The type of rounds to be fired (e.g., high explosive).
