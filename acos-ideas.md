@@ -18,41 +18,53 @@ OPERATING FUNDAMENTALS
 -Post-contact procedures
 
 ---
+❌ Not done, get on it!!!!!
+⭕ Existed already needs review
+✔️ First Pass, lacks review
+✅ Already done 
+
 
 OPERATING SKILLS
--Pre-deployment Check
--Weapon safety
--MBF & Flagging
--IMT and SMT
--Section maneuvers
--Danger Areas
--Fighting from Cover
--Use of Smoke
--Non-Observable Movement
--Emissions Control (EMCON)
--ROEs
--Hold fire by default
--PID
--Unarmed contacts & POWs
--Threat priorities
--Reaction to contact
--Soft Contact
--Return fire
--Maneuver to cover
--Find, fix, flank, finish
--CQB
--Prior to Entry
--Entry Methods
--Prepping a Room
--Room Anatomy
--Danger Areas
--Respawning procedures
--Forming ad-hoc elements (to get to the frontlines)
--Post-contact procedures
--SITREP (Push vs Pull)
--ACE reporting
--360 security
--CAS/FO Procedures
--Six-pack (which ever method August and Heretic come up with)
--Signal procedures
--Convoy Procedures
+-Pre-deployment Check ❌
+
+-Weapon safety ⭕
+    -MBF & Flagging ⭕
+
+-IMT and SMT ✔️ 
+    -Danger Areas ✔️
+    -Fighting from Cover ✔️ 
+    -Use of Smoke ✔️
+    -Masked Movement ✔️ 
+    -Emissions Control (EMCON) ✔️ 
+    -Post-contact procedures ❌
+        -ACE reporting ✅ (needs to link to comms section)
+        -Forming ad-hoc elements (to get to the frontlines) ❌
+        -SITREP ✅ (needs to link to comms section)
+        -360 security ✅ (refer to fireteam formations)
+        -active waiting ❌
+-ROEs ⭕
+    -PID
+    -Unarmed contacts & POWs
+    -Hold fire by default
+    -Threat priorities
+
+-Reaction to contact ✔️
+    -Soft Contact
+    -Return fire (RCR)
+    -Maneuver to cover
+    -Find, fix, flank, finish
+
+-CQB ✔️
+    -Prior to Entry ✔️ (needs images) 
+    -Entry Methods ✔️ (needs gifs | later)
+    -Prepping a Room ✔️ 
+    -Room Anatomy ✅
+    -Danger Areas in cqb ✅
+
+-Communications ✅
+
+-CAS/FO Procedures ❌
+    -Six-pack (which ever method August and Heretic come up with)
+    -Signal procedures
+
+-Convoy Procedures ❌

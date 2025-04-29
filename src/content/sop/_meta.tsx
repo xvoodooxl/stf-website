@@ -11,10 +11,16 @@ export default {
   '###': { type: 'separator' },
   'pre-deployment': '',
   'weapon-safety': '',
-  'fireteam-roles': '',
   'rules-of-engagement': '',
   'movement-tactics': '',
   'close-quarters-battle': '',
-  'tactics-drills': '',
+  'tactics-drills': {
+    display: 'hidden',
+  },
   communications: '',
+  'fire-support': '',
+  'convoy-procedures': '',
+  'airborne-procedures': {
+    display: 'hidden',
+  },
 }
