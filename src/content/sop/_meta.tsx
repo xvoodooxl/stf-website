@@ -2,6 +2,7 @@ export default {
   index: 'Introduction',
   'community-structure': '',
   'community-guidelines': '',
+  'operational-structure': '',
   'equipment-regulations': {
     title: 'Equipment Regulations',
     theme: {
@@ -18,8 +19,12 @@ export default {
     display: 'hidden',
   },
   communications: '',
-  'fire-support': '',
-  'convoy-procedures': '',
+  'fire-support': {
+    display: 'hidden',
+  },
+  'convoy-procedures': {
+    display: 'hidden',
+  },
   'airborne-procedures': {
     display: 'hidden',
   },
