@@ -1,71 +1,94 @@
 ---
 title: 'Radio Communications'
-description: ''
+description: 'Standard operating procedures for tactical radio usage, including format, verbiage, and closed-loop communication methods.'
 date: '2023-10-01'
 ---
 
-import { Callout } from 'nextra/components';
-
 # Radio Communications
 
-Radio communication is a vital way to relay information from one element to another. Because of this, the following protocol should be used at all times to ensure that the radio communication is concise, accurate, and understandable.
+## Purpose
 
-To begin a transfer communication with another element or person, you should state their element/callsign, and then your own element/callsign, followed with a confirmation of connection, like so:
+Radio communication enables sections and platoon-level units to maintain real-time coordination across the battlefield. A disciplined and structured radio protocol ensures that essential information is delivered clearly, quickly, and with minimal risk of confusion, even under fire.
 
-**`“Alpha, Bravo, how copy?, over”`**
+## Definition
 
-If read loud and clear, they will respond indicating that they are receiving your transmission:
+Radio communications are verbal transmissions sent across designated frequencies or voice channels to relay orders, situational updates, and coordination messages. Depending on the mission or game engine, a dual-net setup is preferred:
 
-**`"Bravo, Alpha, Good Copy., over”`**
+- **Platoon Net**: Used for communication between Section Leaders, Platoon Leadership, and Command Section.
+- **Section Net**: Used internally within each Section for Fire Team coordination.
 
-From here, a transfer of communication has started, and does not end until either element ends a transmission with “out.”, in which that transmission is finished.
+> Not all games or missions support multi-net configurations. In those cases, radio discipline becomes even more critical.
 
-<Callout type='info'>
-  An easy way to remeber this is "Hey you, this is me, [message]".
-</Callout>
+## Key Principles
 
-## Radio Protocol
+- Use “[listener], this is [speaker]” format to initiate communication.
+- Speak **clearly, slowly, and with intent**.
+- Keep transmissions **brief and essential**.
+- Follow **closed-loop communication** procedures to confirm orders and acknowledgements.
+- Avoid **crosstalk or overlapping transmissions** — only one person should speak at a time.
+- Prioritize Platoon Net for inter-section reports and Section Net for local execution.
 
-    - Use “[listener] this is [speaker]” to start conversation.
-    - Use plain words and slow, clear speech.
-    - Keep radio traffic as clean as possible.
-    - Practice [closed loop communications](#closed-loop-communications):
-        - a. When giving an order, address by name or role
-        - b. Expect subordinate to repeat order back
-        - c. Give go-order to start the action (or corrections)
-        - d. Go-orders can be given before the repeat
-    - Only follow your leader’s orders, not your leader’s commander
-    - When communicating with a different element/team, use the element callsign, not the team leader's callsign.
+## Application
 
-## Closed Loop Communications [#closed-loop-communications]
+### 🔁 Standard Radio Flow
 
-Closed loop communication is a technique used to ensure that messages are received and understood correctly. It involves the following steps:
+1. **Initiating Call**:
 
-1. **Sender Initiates Communication**: The sender addresses the recipient and delivers the message.
-2. **Recipient Acknowledges and Repeats**: The recipient acknowledges the message and repeats it back to confirm understanding.
-3. **Sender Confirms or Corrects**: The sender confirms the repeated message or provides corrections, if necessary.
+   > `“Alpha, Bravo, how copy?, over.”`
 
-### Example:
+2. **Acknowledgment**:
 
-1. **Sender:** **`"Bravo, Alpha. Move to grid 1234, over."`**
-2. **Recipient:** **`"Alpha, Bravo. Move to grid 1234, copy, over."`**
-3. **Sender:** **`"Bravo, Alpha. Good copy, out."`**
+   > `“Bravo, Alpha, good copy, over.”`
 
-This process ensures clarity and reduces the chance of miscommunication, especially in high-stakes situations.
+3. **Transmission Content**:
 
-## Radio Verbiage
+   > `“Move to grid 1234, over.”`
 
-Below are a list of words and their meanings in the context of radio communication:
+4. **Confirmation**:
 
-- **`“How Copy?”`** - Requests acknowledgement of radio transfer and contents of transfer, if applicable.
-- **`“Lima Charlie” / “Loud and Clear” / “Good Copy”`** - Acknowledges clear radio transfer.
-- **`“Say again?”`** - Requests a repeat of transfer. Do _NOT_ use “Repeat”, which refers to artillery.
-- **`“Affirm” / “Good Copy”`** - Acknowledges and confirms traffic.
-- **`“Wilco”`** - Will comply, specifically used to confirm the following of orders.
-- **`“Break break break”`** - Holds radio comms, used in an emergency.
-- **`“Break”`** - Pausing transmission, used when transmitting a large amount of information to allow other stations to speak up if they need to.
-- **`“Standby”`** - Is used to advise another party to wait on a response.
-- **`“Standing By”`** - used to acknowledge a “standby” call.
-- **`“Wait _ / Hold _“`** - Pauses radio comms, typically specified in minutes. (e.g. “Wait One.”)
-- **`“Over”`** - Passes the transfer to another party.
-- **`“Out”`** - Ends the radio transfer.
+   > `“Move to grid 1234, copy, over.”`
+
+5. **Close Transmission**:
+   > `“Good copy, out.”`
+
+💡 _Remember: “Over” means you're passing the mic. “Out” means the conversation is done._
+
+### 🔁 Closed-Loop Communications
+
+Used to **confirm orders**, **repeat critical data**, and **verify understanding**:
+
+1. Sender issues command
+2. Receiver repeats back
+3. Sender confirms or corrects
+
+> **“Bravo, Alpha. Cover the south window.”**  
+> **“Alpha, Bravo. Covering south window, over.”**  
+> **“Bravo, Alpha. Good copy, out.”**
+
+### 📖 Radio Verbiage Reference
+
+| Phrase                                          | Meaning                                             |
+| ----------------------------------------------- | --------------------------------------------------- |
+| **"How Copy?"**                                 | Requests confirmation that message was received.    |
+| **"Good Copy / Loud and Clear / Lima Charlie"** | Message received clearly.                           |
+| **"Say Again?"**                                | Request repetition of message (never say “repeat”). |
+| **"Wilco"**                                     | Will comply.                                        |
+| **"Break Break Break"**                         | Emergency priority message incoming.                |
+| **"Break"**                                     | Pause in long message.                              |
+| **"Standby"**                                   | Wait for more information.                          |
+| **"Standing By"**                               | Acknowledging the request to wait.                  |
+| **"Wait One"**                                  | Short pause (usually one minute).                   |
+| **"Over"**                                      | End of your turn; awaiting response.                |
+| **"Out"**                                       | Transmission complete.                              |
+
+## Common Mistakes
+
+- ❌ Talking too quickly or without clear structure.
+- ❌ Using casual language or inside jokes.
+- ❌ Forgetting to identify both parties in multi-unit environments.
+- ❌ Flooding the Platoon Net with irrelevant chatter.
+- ❌ Saying “Repeat” instead of “Say Again.” (Repeat = fire mission).
+
+## Summary
+
+Proper radio procedure is one of the most important skills in the SPECTRE SOP. Whether you're a fireteam member passing a contact report, a section leader coordinating a breach, or a platoon lead issuing tasking orders, clear radio comms enable rapid, reliable decision-making.
