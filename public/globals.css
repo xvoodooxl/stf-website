@@ -1,4 +1,4 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 @tailwind components;
 @tailwind utilities;
 
@@ -13,4 +13,8 @@ h4,
 h5,
 h6 {
   font-family: var(--font-oswald);
+}
+
+article.nextra-body-typesetting-article {
+  font-size: var(--x-text-base);
 }

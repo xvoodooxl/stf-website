@@ -1,7 +1,6 @@
 import { title } from 'process'
 
 export default {
-  '##': { type: 'separator', title: 'Basic Training' },
   'introduction-to-roles': '',
   // '###': { type: 'separator', title: 'Shoot' },
   'shooting-discipline': '',

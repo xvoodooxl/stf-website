@@ -11,7 +11,7 @@ export default {
   },
   training: {
     type: 'page',
-    title: 'Training',
+    title: 'Academy',
     display: 'children',
   },
   about: {
@@ -24,13 +24,18 @@ export default {
     type: 'page',
     display: 'normal',
   },
+  lore: {
+    title: 'The Lore',
+    type: 'page',
+    display: 'hidden',
+  },
   company: {
     title: 'About Us',
     type: 'menu',
     items: {
       lore: {
         title: 'The Lore',
-        href: '/about',
+        href: '/lore',
       },
       team: {
         title: 'The Team',
