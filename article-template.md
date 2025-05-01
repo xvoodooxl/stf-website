@@ -1,42 +1,33 @@
 ---
 title: 'sample title'
 sidebarTitle: 'sidebar title'
-description: 'Sample description'
+description: 'Short, clear summary of the topic’s tactical value.'
 ---
 
-<!-- ^^^^^ Metadata for the file, be descriptive, and add a description if possible ^^^^^ -->
-<!-- IF COPY PASTING THE FILE CHANGE FILE FORMAT FROM .md to .mdx -->
-<!-- Delete all comments after editing -->
+<!-- CHANGE FILE EXTENSION TO .mdx IF ADDING COMPONENTS -->
+<!-- Delete this comment before saving -->
 
 # [Article Title]
 
-## Purpose
-
-A short statement explaining _why_ this technique or concept is important for tactical movement and survival.
-
-## Definition
-
-A clear, simple explanation of what the technique or concept is.
+A short introductory paragraph explaining what the article covers and why it matters for tactical movement and decision-making.
 
 ## Key Principles
 
-- Bullet-point list of the most important ideas the player needs to understand.
-- Focus on _why_ and _when_ to use it.
-- Avoid game-specific mentions (keep it general).
+- Bullet-point summary of the core ideas.
+- Focus on **why** and **when** to apply them.
 
 ## Application
 
-How to actually apply the concept during gameplay:
+How to use the concept effectively in-game:
 
-- Describe step-by-step actions.
-- Focus on behavior and decision-making, not game mechanics.
-- Include examples of good and bad applications if needed.
+- Step-by-step or example-based explanation.
+- Emphasize player decision-making over game mechanics.
 
 ## Common Mistakes
 
-- List the most frequent errors players make related to this technique.
-- Helps trainees self-correct without needing constant supervision.
+- Quick list of common errors to avoid.
+- Helps trainees self-correct.
 
 ## Summary
 
-A short final paragraph reinforcing the importance of mastering the concept and how it ties into broader movement and tactics.
+One or two sentences reinforcing the concept’s value and how it ties into broader tactical movement.

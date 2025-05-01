@@ -19,13 +19,10 @@ export default {
     display: 'hidden',
   },
   communications: '',
+  leadership: '',
+  'mission-planning': '',
+  'logistics-and-sustainment': '',
   'fire-support': {
-    display: 'hidden',
-  },
-  'convoy-procedures': {
-    display: 'hidden',
-  },
-  'airborne-procedures': {
     display: 'hidden',
   },
 }
