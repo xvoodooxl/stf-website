@@ -9,7 +9,7 @@ export default {
     title: 'S.O.P.',
     display: 'children',
   },
-  training: {
+  academy: {
     type: 'page',
     title: 'Academy',
     // display: 'children',
