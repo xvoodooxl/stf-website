@@ -1,6 +1,6 @@
 export default {
   'cover-vs-concealment': '',
-  'non-observable-movement': '',
+  'masked-movement': '',
   'emission-control': '',
   telegraphing: '',
   'reaction-to-contact-individual': '',
