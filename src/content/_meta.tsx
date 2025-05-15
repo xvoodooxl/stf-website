@@ -12,7 +12,12 @@ export default {
   training: {
     type: 'page',
     title: 'Academy',
-    display: 'children',
+    // display: 'children',
+  },
+  guides: {
+    type: 'page',
+    title: 'Guides',
+    // display: 'children',
   },
   about: {
     title: 'About',
