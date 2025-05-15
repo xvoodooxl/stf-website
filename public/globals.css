@@ -18,3 +18,7 @@ h6 {
 article.nextra-body-typesetting-article {
   font-size: var(--x-text-base);
 }
+
+@theme {
+  --color-stf: #ffd35a;
+}
